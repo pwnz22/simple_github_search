@@ -62,7 +62,7 @@
                         <div class="col-md-3">
                             <span class="label label-default">Forks: {{ repo.forks_count }}</span>
                             <span class="label label-primary">Watchers: {{ repo.watchers_count }}</span>
-                            <span class="label label-success">Stars: {{ user.stargazers_count }}</span>
+                            <span class="label label-success">Stars: {{ repo.stargazers_count }}</span>
                         </div>
 
                         <div class="col-md-2">
