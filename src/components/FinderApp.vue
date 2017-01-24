@@ -51,7 +51,7 @@
                     </div>
                 </div>
             </div><!-- .panel -->
-            <div id="repos">
+            <div id="repos" v-if="userRepo">
                 <h3 class="page-header">Latest Repos</h3>
                 <div class="well" v-for="repo in userRepo">
                     <div class="row">
